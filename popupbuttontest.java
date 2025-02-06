@@ -2,6 +2,8 @@ import javax.swing.*;
 import java.awt.*;
 import java.awt.event.*;
 
+
+
 public class popupbuttontest implements ActionListener {
     JFrame jf;
     JButton b1;
@@ -18,7 +20,13 @@ public class popupbuttontest implements ActionListener {
 
     }
 
+public static void main(String[] args) {
+    popupbuttontest pbt = new popupbuttontest();
+}
+
     public void actionPerformed(ActionEvent e) {
         JOptionPane.showMessageDialog(null, "You clicked the button");
+       
     }
+
 }
