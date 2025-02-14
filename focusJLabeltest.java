@@ -9,7 +9,7 @@ public class focusJLabeltest implements FocusListener {
     public static void main(String[] args) {
         JFrame jf = new JFrame("Focus Event Test");
         jf.setSize(300, 300);
-        jf.setLayout(new GridLayout(2, 1)); // Changed to GridLayout with 2 rows and 1 column
+        jf.setLayout(new GridLayout(2, 1)); 
         jf.setDefaultCloseOperation(JFrame.EXIT_ON_CLOSE);
         focusJLabeltest fet = new focusJLabeltest();
         fet.T1 = new JLabel("Label 1");
