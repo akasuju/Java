@@ -14,13 +14,9 @@ public class ButtonLayout {
         // jf.setLayout(new GridLayout(2,2))  
          jf.setLayout(new GridLayout(2,2,5,5));
         JButton b1 =new JButton("one");
-        JButton b2 =new JButton("two");
-        JButton b3 =new JButton("three");
-        JButton b4 =new JButton("four");
+       b1=new JButton(new ImageIcon ("images/tomcat.png"));
      
         jf.add(b1);
-        jf.add(b2);
-        jf.add(b3);
-        jf.add(b4);
+    
     }
 }

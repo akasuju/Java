@@ -5,7 +5,6 @@ import java.awt.event.*;
 public class EvenOddGUITest {
     static JButton b1;
     static JTextField t1;
-
     public static void main (String []args){
 JFrame jf =new  JFrame("Even Odd Test");
 jf.setSize(300, 300);
