@@ -4,20 +4,20 @@ import javax.swing.JTable;
 
 public class Jtabletest {
     public static void main(String[] args) {
-        // Frame initialization
+  
         JFrame frame = new JFrame();
 
-        // Frame Title
+  
         frame.setTitle("JTable Example");
 
       
         String[][] data = {
-                { "John Doe", "123 Elm St", "Manager", "75000" },
-                { "Jane Smith", "456 Oak St", "Developer", "65000" },
-                { "Mike Johnson", "789 Pine St", "Designer", "60000" }
+                { "1", "John Doe", "123 Elm St", "Manager", "75000" },
+                { "2", "Jane Smith", "456 Oak St", "Developer", "65000" },
+                { "3", "Mike Johnson", "789 Pine St", "Designer", "60000" }
         };
 
-        String[] columnNames = { "Name", "Address", "Position", "Salary" };
+        String[] columnNames = {"ID", "Name", "Address", "Position", "Salary" };
 
         JTable table = new JTable(data, columnNames);
         table.setBounds(30, 40, 200, 300);
