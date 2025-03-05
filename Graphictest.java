@@ -30,12 +30,14 @@ public class Graphictest extends JPanel {
 //         g.fillPolygon(xpoints, ypoints, npoints);   
 
 //Draw Nepals flag 
-
-
-
-
-
-         
+Polygon p= new Polygon();
+p.addPoint(100, 100);
+p.addPoint(100, 200);
+p.addPoint(200, 200);
+g.drawPolygon(p);
+g.setColor(Color.red);
+g.fillPolygon(p);
+   g.fillArc(100, 100, 100, 100, 0, 180); 
     
     }
 public static void main(String[] args) {
@@ -48,5 +50,4 @@ public static void main(String[] args) {
     jf.add(obj);
 }
 }
-
 ;
